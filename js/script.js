@@ -7,7 +7,6 @@ const titleClickHandler = function(event) {
     console.log('Link was clicked!');
     for(let article of articles) {
         article.classList.remove('active');
-        console.log('Hej');
     }
     for(let activeLink of activeLinks) {
         activeLink.classList.remove('active');
