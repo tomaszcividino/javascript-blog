@@ -4,7 +4,6 @@ const activeLinks = document.querySelectorAll('.titles a');
 const articles = document.querySelectorAll('article');
 const titleClickHandler = function(event) {
     const clickedElement = this;
-    console.log('Link was clicked!');
     for(let article of articles) {
         article.classList.remove('active');
     }
