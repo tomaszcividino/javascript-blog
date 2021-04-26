@@ -5,7 +5,6 @@ const optArticleSelector = '.post',
       optTitleListSelector = '.titles';
 const titleClickHandler = function(event) {
     const titles = document.querySelectorAll('.titles a');
-    console.log(titles)
     event.preventDefault();
     const clickedElement = this;
     for(let article of articles) {
