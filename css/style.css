@@ -75,9 +75,10 @@ body {
   color: blue;
 }
 
-.list-horizontal li {
-  display: inline-block;
+.list-horizontal {
+  display: block;
 }
+
 
 /* Authors */
 .authors li {
@@ -91,6 +92,15 @@ body {
 
 .post.active {
   display: block;
+}
+
+.tag-size-1 {
+  font-size: 20px;
+}
+
+.tag-size-5 {
+  font-size: 30px;
+
 }
 
 .post-author {
